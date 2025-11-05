@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo {
+    background: url('https://static.wikia.nocookie.net/fridaynightfunking/images/a/a9/PibAFinnBG.png/revision/latest/scale-to-width-down/1000?cb=20230808084113') center no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: #fff;
+
+    display: grid;
+    place-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.fundo h1 {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 5%;
+    text-shadow: 1px 1px #000;
+}
+
+.calculadora {
+    background: #6896a067;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#resultado {
+    background: #fff;
+    color: #000;
+    text-align: right;
+    padding: 5px 1rem;
+    width: 14rem;
+    height: 2.5rem;
+    letter-spacing: .187rem;
+    margin: 1rem auto 1rem;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+}
+
+button {
+    background-color: #005a0f;
+    color: #fff;
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #002702b6;
+    border: none;
+}
+
+button:active {
+    font-size: 1rem;
+    box-shadow: inset 2px 2px #000;
+    width: 2.8rem;
+    height: 2.8rem;
+}
